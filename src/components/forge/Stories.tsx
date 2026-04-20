@@ -11,7 +11,7 @@ const STORIES = [
   { name: "Jordan B.", age: 38, dur: "10 wk", weight: "−11 lb", bf: "−4.5%", lift: "SQ +60", quote: "Sustainable. Brutal. Worth every minute." },
   { name: "Aisha N.", age: 31, dur: "18 wk", weight: "+9 lb LBM", bf: "−3.1%", lift: "BP +35", quote: "I built strength I didn't know was possible." },
   { name: "Ethan W.", age: 45, dur: "14 wk", weight: "−19 lb", bf: "−7.2%", lift: "DL +110", quote: "Best decision I've made in my forties." },
-  { name: "Camille D.", age: 27, dur: "22 wk", weight: "−26 lb", bf: "−10.1%", lift: "SQ +95", quote: "FORGE doesn't make excuses. So I stopped making them too." },
+  { name: "Camille D.", age: 27, dur: "22 wk", weight: "−26 lb", bf: "−10.1%", lift: "SQ +95", quote: "NYC Iron doesn't make excuses. So I stopped making them too." },
 ];
 
 export const Stories = () => {

@@ -27,9 +27,9 @@ export const Nav = () => {
       <div className="container flex h-16 items-center justify-between gap-6">
         <a href="#top" className="flex items-center gap-2.5 group">
           <span className="grid h-9 w-9 place-items-center border border-silver/40 group-hover:border-primary transition-colors">
-            <span className="font-display text-xl text-foreground group-hover:text-primary transition-colors">F</span>
+            <span className="font-display text-xl text-foreground group-hover:text-primary transition-colors">N</span>
           </span>
-          <span className="font-display text-xl tracking-wider hidden sm:inline">FORGE</span>
+          <span className="font-display text-xl tracking-wider hidden sm:inline">NYC IRON</span>
         </a>
 
         <nav className="hidden md:flex items-center gap-8">
