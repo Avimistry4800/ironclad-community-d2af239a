@@ -8,7 +8,6 @@ import { Facility } from "@/components/forge/Facility";
 import { Schedule } from "@/components/forge/Schedule";
 import { Booking } from "@/components/forge/Booking";
 import { Footer } from "@/components/forge/Footer";
-import { ChatAssistant } from "@/components/forge/ChatAssistant";
 
 const Index = () => {
   return (
@@ -25,7 +24,6 @@ const Index = () => {
         <Booking />
       </main>
       <Footer />
-      <ChatAssistant />
     </div>
   );
 };
