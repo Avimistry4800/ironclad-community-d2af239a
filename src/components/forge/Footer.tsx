@@ -3,7 +3,7 @@ export const Footer = () => {
     <footer className="relative bg-background border-t border-silver/15 overflow-hidden">
       {/* Faded monogram */}
       <div className="absolute -bottom-20 left-1/2 -translate-x-1/2 font-display text-[40vw] leading-none text-foreground/[0.025] pointer-events-none select-none">
-        FORGE
+        NYC IRON
       </div>
 
       <div className="container relative pt-20 pb-10">
@@ -11,9 +11,9 @@ export const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center gap-2.5 mb-5">
               <span className="grid h-10 w-10 place-items-center border border-primary">
-                <span className="font-display text-2xl text-primary">F</span>
+                <span className="font-display text-2xl text-primary">N</span>
               </span>
-              <span className="font-display text-2xl tracking-wider">FORGE</span>
+              <span className="font-display text-2xl tracking-wider">NYC IRON</span>
             </div>
             <p className="font-body text-sm text-silver max-w-md leading-relaxed">
               A high-performance strength studio in Brooklyn. Built around three principles:
@@ -38,7 +38,7 @@ export const Footer = () => {
             "284 Kent Avenue",
             "Brooklyn · NY 11249",
             "+1 (718) 555-0148",
-            "hello@forge.studio",
+            "hello@nyciron.studio",
           ]} />
           <FooterCol title="Hours" items={[
             "Mon–Fri · 05:30–22:00",
@@ -56,7 +56,7 @@ export const Footer = () => {
             <a href="#" className="hover:text-primary">Members Login →</a>
           </div>
           <div className="font-condensed text-[11px] uppercase tracking-[0.2em] text-silver-dim md:text-right">
-            © 2026 FORGE Strength Co. · Built, not born.
+            © 2026 NYC Iron Strength Co. · Built, not born.
           </div>
         </div>
       </div>
