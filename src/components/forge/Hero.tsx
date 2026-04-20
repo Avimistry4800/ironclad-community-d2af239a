@@ -74,7 +74,7 @@ export const Hero = () => {
             <span className="text-stroke">Not</span> <span className="text-primary">Born.</span>
           </h1>
           <p className="mt-8 max-w-xl font-body text-base md:text-lg text-silver leading-relaxed animate-fade-in [animation-delay:300ms]">
-            We don't sell memberships. We forge athletes. Programmed, coached, and accountable —
+            We don't sell memberships. We build athletes. Programmed, coached, and accountable —
             every rep tracked, every milestone earned.
           </p>
 
