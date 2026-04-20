@@ -1,16 +1,31 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { Nav } from "@/components/forge/Nav";
+import { Hero } from "@/components/forge/Hero";
+import { Manifesto } from "@/components/forge/Manifesto";
+import { Programs } from "@/components/forge/Programs";
+import { Coaches } from "@/components/forge/Coaches";
+import { Stories } from "@/components/forge/Stories";
+import { Facility } from "@/components/forge/Facility";
+import { Schedule } from "@/components/forge/Schedule";
+import { Booking } from "@/components/forge/Booking";
+import { Footer } from "@/components/forge/Footer";
 
-// IMPORTANT: Fully REPLACE this with your own code
-const PlaceholderIndex = () => {
-  // PLACEHOLDER: Replace this entire return statement with the user's app.
-  // The inline background color is intentionally not part of the design system.
+const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center" style={{ backgroundColor: '#fcfbf8' }}>
-      <img data-lovable-blank-page-placeholder="REMOVE_THIS" src="/placeholder.svg" alt="Your app will live here!" />
+    <div className="min-h-screen bg-background text-foreground">
+      <Nav />
+      <main>
+        <Hero />
+        <Manifesto />
+        <Programs />
+        <Coaches />
+        <Stories />
+        <Facility />
+        <Schedule />
+        <Booking />
+      </main>
+      <Footer />
     </div>
   );
 };
-
-const Index = PlaceholderIndex;
 
 export default Index;
